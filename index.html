@@ -3,21 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Typing Speed Tester - VSB Engineering College</title>
+  <title>Typing Speed Tester</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container" id="welcome-screen">
-    <h1>VSB ENGINEERING COLLEGE</h1>
-    <p class="subtext">A Place for Placement</p>
-    <p>Test your typing skills with the sentence below.<br>Type quickly and accurately!</p>
+    <h1>Typing Speed Tester</h1>
+    <p class="subtext">Test your typing speed and accuracy</p>
+    <p>
+      Test your typing skills with the sentence below.<br>
+      Type quickly and accurately!
+    </p>
     <button onclick="startTest()">Start Test</button>
   </div>
 
   <div class="container hidden" id="test-screen">
     <p>Type this:</p>
     <p id="sentence" class="sentence"></p>
-    <input type="text" id="inputText" placeholder="Start typing here..." onkeydown="handleKey(event)" />
+    <input
+      type="text"
+      id="inputText"
+      placeholder="Start typing here..."
+      onkeydown="handleKey(event)"
+    />
   </div>
 
   <div class="container hidden" id="result-screen">
