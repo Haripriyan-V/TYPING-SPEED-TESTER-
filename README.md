@@ -5,12 +5,6 @@ This project allows users to test their typing speed and accuracy by typing rand
 
 ---
 
-## 🚀 Live Demo
-
-🔗 **Live Demo:** Add your deployed project link here
-
----
-
 ## 📌 Project Overview
 
 The **Typing Speed Tester** is a browser-based application designed to help users measure their typing performance.
